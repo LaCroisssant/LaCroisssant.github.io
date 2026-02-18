@@ -1,4 +1,5 @@
 .head {display: flex;
+       position:fixed;
        background: #699df2;
        height: 60px;
        color: #ecf3fe;
@@ -49,4 +50,5 @@ a {display: block}
   top: 10px;            
 
 }
+
 
