@@ -1,5 +1,5 @@
 .head {display: flex;
-       position:fixed;
+       position: fixed;
        background: #699df2;
        height: 60px;
        color: #ecf3fe;
@@ -8,11 +8,13 @@
        font-family: Trebuchet MS, Comic Sans MS, Arial;
        font-size: 1.3rem}
 
+header {position: relative; height: 60 px;}
+
 #map {width:100%; height: 400px;}
 
 a {display: block}
 
-.burger {position: fixed; 
+.burger {position: absolute; 
          top: 35px;
          left: 20px;
          width: 30px;
@@ -50,5 +52,6 @@ a {display: block}
   top: 10px;            
 
 }
+
 
 
