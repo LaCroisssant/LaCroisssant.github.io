@@ -10,8 +10,8 @@
 a {display: block}
 
 .burger {position: fixed; 
-         top: 26px;
-         left: 15px;
+         top: 35px;
+         left: 20px;
          width: 30px;
          height: 6px;
          background: white;
@@ -45,4 +45,5 @@ a {display: block}
 .burger span::after {
   content: "";
   top: 10px;            
+
 }
