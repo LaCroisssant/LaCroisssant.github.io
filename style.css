@@ -1,0 +1,48 @@
+.head {display: flex;
+       background: #699df2;
+       height: 60px;
+       color: #ecf3fe;
+       justify-content: center;
+       align-items: center;
+       font-family: Trebuchet MS, Comic Sans MS, Arial;
+       font-size: 1.3rem}
+
+a {display: block}
+
+.burger {position: fixed; 
+         top: 26px;
+         left: 15px;
+         width: 30px;
+         height: 6px;
+         background: white;
+         border: none;
+         border-radius: 999px;
+         padding: 0;
+        }
+
+.burger span,
+.burger span::before,
+.burger span::after {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  border-radius: 999px;
+  background-color: white;
+  
+}
+
+.burger span {
+  position: relative; 
+  
+}
+
+.burger span::before {
+  content: "";
+  top: -10px;           
+}
+
+.burger span::after {
+  content: "";
+  top: 10px;            
+}
