@@ -1,0 +1,92 @@
+body {line-height: 1.5;
+      font-family: Trebuchet MS, Comic Sans MS, Arial}
+
+div p {display: flex; justify-content: center}
+
+table, th {border-collapse: collapse;
+            border: 2px solid;
+            background: #f6f6f4;
+            padding: 7px;}
+
+table {width: 50%}
+
+a {margin: 0;}
+h1 {margin: 0;}
+
+img {display: block;}
+
+.hren {height: 350px; width: 500px;}
+.bagulina {display: flex; justify-content: left;}
+.visokiy {height: 400px; width: 250px;}
+
+#map {width: 100%;
+      height: 55rem; 
+      max-width: 800px; 
+      margin: 0 auto; 
+      border-radius: 15px; 
+      box-shadow: black;
+      border: 2px solid black;}
+
+.leaflet-control-attribution .leaflet-attribution-flag {
+    display: none !important;
+}
+
+dt {font-style: italic;}
+
+.desc {display: flex; font-size: 0.8rem; font-style: italic; justify-content: center;}
+
+.table {display:flex;
+        justify-content: center;}
+
+ul.tickets li {display: flex; justify-content: center;}
+
+.head {display: flex;
+       background: #699df2;
+       height: 60px;
+       color: #ecf3fe;
+       justify-content: center;
+       align-items: center;
+       font-family: Trebuchet MS, Comic Sans MS, Arial;
+       font-size: 1.3rem;
+       margin-top: 0;
+       margin-bottom: 20px;}
+
+.burger {position: absolute; 
+         top: 35px;
+         left: 20px;
+         width: 35px;
+         height: 6px;
+         background: white;
+         border: none;
+         border-radius: 999px;
+         padding: 0;
+        }
+
+.burger span,
+.burger span::before,
+.burger span::after {
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 6px;
+  border-radius: 999px;
+  background-color: white;
+  
+}
+
+.burger span {
+  position: relative; 
+  
+}
+
+.burger span::before {
+  content: "";
+  top: -10px;           
+}
+
+.burger span::after {
+  content: "";
+  top: 10px;            
+}
+
+body > :first-child { margin-top: 0; }
