@@ -1,11 +1,12 @@
 body {line-height: 1.5;
-      font-family: Trebuchet MS, Comic Sans MS, Arial}
+      font-family: Trebuchet MS, Comic Sans MS, Arial;
+      background: #D0F0C0;}
 
 div p {display: flex; justify-content: center}
 
 table, th {border-collapse: collapse;
             border: 2px solid;
-            background: #f6f6f4;
+            background: ##F5F5DC;
             padding: 7px;}
 
 table {width: 50%}
@@ -41,7 +42,7 @@ dt {font-style: italic;}
 ul.tickets li {display: flex; justify-content: center;}
 
 .head {display: flex;
-       background: #699df2;
+       background: #50C878;
        height: 60px;
        color: #ecf3fe;
        justify-content: center;
@@ -88,5 +89,6 @@ ul.tickets li {display: flex; justify-content: center;}
   content: "";
   top: 10px;            
 }
+
 
 body > :first-child { margin-top: 0; }
