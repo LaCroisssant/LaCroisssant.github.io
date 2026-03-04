@@ -6,7 +6,7 @@ div p {display: flex; justify-content: center}
 
 table, th {border-collapse: collapse;
             border: 2px solid;
-            background: ##F5F5DC;
+            background: #F5F5DC;
             padding: 7px;}
 
 table {width: 50%}
@@ -92,3 +92,4 @@ ul.tickets li {display: flex; justify-content: center;}
 
 
 body > :first-child { margin-top: 0; }
+
