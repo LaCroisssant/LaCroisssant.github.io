@@ -21,7 +21,7 @@ img {display: block;}
 .visokiy {height: 400px; width: 250px;}
 
 #map {width: 100%;
-      height: 40rem; 
+      height: 50rem; 
       max-width: 800px; 
       margin: 0 auto; 
       border-radius: 15px; 
@@ -92,5 +92,6 @@ ul.tickets li {display: flex; justify-content: center;}
 
 
 body > :first-child { margin-top: 0; }
+
 
 
